@@ -1,0 +1,128 @@
+/* Desktop layout  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .bannar-area{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .bannar-area h1{
+        font-size: 55px;
+    }
+    .features-area h3{
+        font-size: 30px;
+    }
+    .faq-area h4{
+        font-size: 32px;
+    }
+    .faq-author h4{
+        font-size: 18px !important;
+    }
+    .footer-bottom-area p{
+        font-size: 12px;
+    }
+    .features-area h3{
+        padding-right: 10px;
+    }
+    .features-area h3:before{
+        height: 250px;
+    }
+    .blog-meta{
+        flex-direction: column;
+    }
+    .blog-meta-left a{
+        margin-right: 12px;
+    }
+    .breadcumb-area{
+        padding: 60px 0;
+    }
+    .breadcumb-area h4{
+        font-size: 45px;
+    }
+}
+/* Tablet layout  */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .bannar-area{
+        padding: 60px 0;
+    }
+    .bannar-area h1{
+        font-size: 44px;
+    }
+    .features-area h3::after{
+        display: none;
+    }
+    .breadcumb-area{
+        padding: 50px 0;
+    }
+    .breadcumb-area h4{
+        font-size: 40px;
+    }
+    .blog-meta{
+        flex-direction: column;
+    }
+    .projects-gallery a{
+        flex-basis: 24%;
+    }
+    .single-contact span{
+        font-size: 13px;
+    }
+}
+
+/* mobile device  */
+@media only screen and (max-width: 767px){
+    .header-top-info a{
+        margin-left: 10px;
+    }
+    .bannar-area{
+        padding: 60px 0;
+    }
+    .bannar-area h1{
+        font-size: 40px;
+    }
+    .features-area h3::after{
+        display: none;
+    }
+    .features-area p{
+        margin-left: 0;
+    }
+    .about-area{
+        padding: 15px 0;
+    }
+    .about-area h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .single-counter{
+        margin-bottom: 50px;
+    }
+    .faq-author h4{
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 30px;
+    }
+    .faq-area h4 {
+        font-size: 26px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .cta-area h4{
+        line-height: 45px;
+    }
+    .breadcumb-area {
+        padding: 40px 0;
+    }
+    .breadcumb-area h4{
+        font-size: 40px;
+    }
+    .projects-menu {
+        flex-direction: column;
+    }
+    .blog-meta-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-blog h4 {
+        font-size: 22px;
+    }
+    .footer-area {
+        padding: 50px 0;
+    }
+}
